@@ -107,6 +107,7 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Debug"
+      customArchiveName = "Testingunit"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
