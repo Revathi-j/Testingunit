@@ -11,6 +11,9 @@ import UIKit
 class ViewController: UIViewController,UIAlertViewDelegate{
 
     @IBOutlet var name: UITextField!
+    
+    @IBOutlet var txtView: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

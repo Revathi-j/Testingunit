@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Testingunit/ViewController.swift"
-            timestampString = "479371288.059484"
+            timestampString = "479742736.230733"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
             landmarkName = "isValidEmail(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Testingunit/ViewController.swift"
-            timestampString = "479371288.059484"
+            timestampString = "479742736.230733"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "Submit(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -57,8 +57,8 @@
                   symbolName = "Testingunit.ViewController.__deallocating_deinit"
                   moduleName = "Testingunit"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/blt0009-/Desktop/Testingunit/Testingunit/ViewController.swift"
-                  timestampString = "479378575.402983"
+                  urlString = "file:///Users/blt0009-/Desktop/Emailvalidate/Testingunit/ViewController.swift"
+                  timestampString = "479732397.024264"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -72,8 +72,8 @@
                   symbolName = "Testingunit.ViewController.init (Testingunit.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; Testingunit.ViewController"
                   moduleName = "Testingunit"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/blt0009-/Desktop/Testingunit/Testingunit/ViewController.swift"
-                  timestampString = "479378575.403223"
+                  urlString = "file:///Users/blt0009-/Desktop/Emailvalidate/Testingunit/ViewController.swift"
+                  timestampString = "479732397.024546"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -81,6 +81,38 @@
                   offsetFromSymbolStart = "57">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestingunitTests/TestingunitTests.swift"
+            timestampString = "479732074.171549"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "testExample()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestingunitUITests/TestingunitUITests.swift"
+            timestampString = "479742870.455861"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "tearDown()"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

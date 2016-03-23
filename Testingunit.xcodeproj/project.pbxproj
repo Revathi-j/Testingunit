@@ -11,10 +11,9 @@
 		CB3AF2591C917BAE008DEB96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3AF2581C917BAE008DEB96 /* ViewController.swift */; };
 		CB3AF25C1C917BAE008DEB96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3AF25A1C917BAE008DEB96 /* Main.storyboard */; };
 		CB3AF25E1C917BAE008DEB96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB3AF25D1C917BAE008DEB96 /* Assets.xcassets */; };
-		CB3AF2611C917BAE008DEB96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3AF25F1C917BAE008DEB96 /* LaunchScreen.storyboard */; };
 		CB3AF26C1C917BAE008DEB96 /* TestingunitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3AF26B1C917BAE008DEB96 /* TestingunitTests.swift */; };
 		CB3AF2771C917BAF008DEB96 /* TestingunitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3AF2761C917BAF008DEB96 /* TestingunitUITests.swift */; };
-		CB99DB681C92CF1600065E6F /* unit test.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB99DB671C92CF1600065E6F /* unit test.swift */; settings = {ASSET_TAGS = (); }; };
+		CB99DB681C92CF1600065E6F /* unit test.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB99DB671C92CF1600065E6F /* unit test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +39,6 @@
 		CB3AF2581C917BAE008DEB96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CB3AF25B1C917BAE008DEB96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB3AF25D1C917BAE008DEB96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CB3AF2601C917BAE008DEB96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB3AF2621C917BAE008DEB96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB3AF2671C917BAE008DEB96 /* TestingunitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingunitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB3AF26B1C917BAE008DEB96 /* TestingunitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingunitTests.swift; sourceTree = "<group>"; };
@@ -103,7 +101,6 @@
 				CB3AF2581C917BAE008DEB96 /* ViewController.swift */,
 				CB3AF25A1C917BAE008DEB96 /* Main.storyboard */,
 				CB3AF25D1C917BAE008DEB96 /* Assets.xcassets */,
-				CB3AF25F1C917BAE008DEB96 /* LaunchScreen.storyboard */,
 				CB3AF2621C917BAE008DEB96 /* Info.plist */,
 				CB99DB671C92CF1600065E6F /* unit test.swift */,
 			);
@@ -231,7 +228,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB3AF2611C917BAE008DEB96 /* LaunchScreen.storyboard in Resources */,
 				CB3AF25E1C917BAE008DEB96 /* Assets.xcassets in Resources */,
 				CB3AF25C1C917BAE008DEB96 /* Main.storyboard in Resources */,
 			);
@@ -302,14 +298,6 @@
 				CB3AF25B1C917BAE008DEB96 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CB3AF25F1C917BAE008DEB96 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CB3AF2601C917BAE008DEB96 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -478,7 +466,7 @@
 				CB3AF27A1C917BAF008DEB96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		CB3AF27B1C917BAF008DEB96 /* Build configuration list for PBXNativeTarget "Testingunit" */ = {
 			isa = XCConfigurationList;
@@ -487,7 +475,7 @@
 				CB3AF27D1C917BAF008DEB96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		CB3AF27E1C917BAF008DEB96 /* Build configuration list for PBXNativeTarget "TestingunitTests" */ = {
 			isa = XCConfigurationList;
@@ -496,7 +484,7 @@
 				CB3AF2801C917BAF008DEB96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		CB3AF2811C917BAF008DEB96 /* Build configuration list for PBXNativeTarget "TestingunitUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,7 +493,7 @@
 				CB3AF2831C917BAF008DEB96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
