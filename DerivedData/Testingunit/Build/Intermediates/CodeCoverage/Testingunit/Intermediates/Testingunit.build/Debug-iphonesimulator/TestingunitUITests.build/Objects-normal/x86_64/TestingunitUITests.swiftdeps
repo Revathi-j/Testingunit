@@ -6,13 +6,13 @@ provides-nominal:
 provides-member:
 - ["C18TestingunitUITests18TestingunitUITests", ""]
 provides-dynamic-lookup:
-- "tearDown"
 - "testExample"
+- "tearDown"
 - "setUp"
 depends-top-level:
-- "TestingunitUITests"
-- !private "BooleanLiteralType"
 - !private "XCUIApplication"
+- !private "BooleanLiteralType"
+- "TestingunitUITests"
 - "XCTestCase"
 depends-member:
 - !private ["PSs9AnyObject", "XCUIApplication"]

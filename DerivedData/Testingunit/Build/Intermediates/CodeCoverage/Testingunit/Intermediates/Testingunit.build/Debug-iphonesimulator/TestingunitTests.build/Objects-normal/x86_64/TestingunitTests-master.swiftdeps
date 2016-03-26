@@ -1,6 +1,6 @@
 version: "Apple Swift version 2.0 (swiftlang-700.0.59 clang-700.0.72)"
 options: "82cb3a6fd30c825371c54732a80cf0b6"
-build_time: [512053571, 500265000]
+build_time: [512214107, 787387000]
 inputs: 
 	"/Users/blt0009-/Desktop/Emailvalidate/Testingunit/unit test.swift": [511005717, 0]
-	"/Users/blt0009-/Desktop/Emailvalidate/TestingunitTests/TestingunitTests.swift": [511007203, 0]
+	"/Users/blt0009-/Desktop/Emailvalidate/TestingunitTests/TestingunitTests.swift": [512213623, 0]

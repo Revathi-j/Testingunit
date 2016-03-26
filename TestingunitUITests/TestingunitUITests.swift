@@ -34,9 +34,27 @@ class TestingunitUITests: XCTestCase {
     
     
         func testExample() {
+                let app = XCUIApplication()
+            let textField = app.otherElements.containingType(.Button, identifier:"Submit").childrenMatchingType(.TextField).element
+            textField.tap()
+            app.keys["r"].tap()
+            app.keys["e"].tap()
+            textField.typeText("revathi")
             
+            let submitButton = app.buttons["Submit"]
+            submitButton.tap()
             
-        // Use recording to get started writing UI tests.
+            let okButton = app.alerts["Alert"].collectionViews.buttons["OK"]
+            okButton.tap()
+            textField.tap()
+            textField.typeText("@gmail")
+             let moreNumbersKey = app.keys["more, numbers"]
+            moreNumbersKey.tap()
+            moreNumbersKey.tap()
+            textField.typeText(".com")
+            submitButton.tap()
+            okButton.tap()
+            // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     

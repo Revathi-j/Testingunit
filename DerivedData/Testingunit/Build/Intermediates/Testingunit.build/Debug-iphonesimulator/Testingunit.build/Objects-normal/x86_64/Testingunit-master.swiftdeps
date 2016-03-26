@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.59 clang-700.0.72)"
+options: "b2cc86e4145735e53aae130b5e97f017"
+build_time: [512227029, 603369000]
+inputs: 
+	"/Users/blt0009-/Desktop/Emailvalidate/Testingunit/ViewController.swift": [511365016, 0]
+	"/Users/blt0009-/Desktop/Emailvalidate/Testingunit/AppDelegate.swift": [511621734, 0]
