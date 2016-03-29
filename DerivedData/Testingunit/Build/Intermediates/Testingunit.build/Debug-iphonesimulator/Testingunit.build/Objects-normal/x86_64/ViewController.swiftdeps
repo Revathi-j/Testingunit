@@ -6,24 +6,24 @@ provides-nominal:
 provides-member:
 - ["C11Testingunit14ViewController", ""]
 provides-dynamic-lookup:
+- "viewDidLoad"
+- "name"
 - "Submit"
 - "didReceiveMemoryWarning"
-- "isValidEmail"
 - "txtView"
-- "name"
-- "viewDidLoad"
+- "isValidEmail"
 depends-top-level:
-- !private "StringLiteralType"
-- "String"
-- "UITextView"
-- !private "UIAlertView"
-- "ViewController"
-- "UITextField"
 - "UIViewController"
 - "Bool"
-- "AnyObject"
 - "UIAlertViewDelegate"
+- "UITextField"
+- !private "StringLiteralType"
+- "AnyObject"
+- "ViewController"
 - !private "NSPredicate"
+- "UITextView"
+- !private "UIAlertView"
+- "String"
 depends-member:
 - !private ["PSs9AnyObject", "NSPredicate"]
 - ["PSs9AnyObject", "Submit"]
